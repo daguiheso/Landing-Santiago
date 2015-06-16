@@ -158,27 +158,6 @@ html {
 	font-size: 40px;
 	margin: 0;
 }
-.form-control {
-  height: 49px;
-  border-radius: 8px;
-}
-
-.Shared {
-	background: #F15A29;
-	margin: 6rem 0 0 13rem;
-	padding: 0.4rem 1.8rem 5.4rem;
-}
-.Shared-text {
-	font-size: 34px;
-}
-/*
-
-	FOOTER
-
-*/
-.Footer {
-	background: gray;
-}
 .Wrapper-contactForm {
 	margin-left: 18rem;
 }
@@ -192,6 +171,26 @@ html {
 	margin-top: 1rem;
 	float: right;
 }
+.form-control {
+  height: 49px;
+  border-radius: 8px;
+}
+.Shared {
+	background: #F15A29;
+	margin: 6rem 0 0 13rem;
+	padding: 0.4rem 1.8rem 5.4rem;
+}
+.Shared-text {
+	font-size: 34px;
+}
 .Shared button {
 	background-color: #414042;
+}
+/*
+
+	FOOTER
+
+*/
+.Footer {
+	background: gray;
 }
