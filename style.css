@@ -51,6 +51,17 @@
     font-size: 3.5rem;
     margin-top: .8rem;
 }
+/*
+
+	UTILITIES
+
+*/
+.inline-block {
+	display: inline-block;
+}
+.push-right {
+	float: right;
+}
 .orange {
 	color: #FBB040;
 }
@@ -64,7 +75,7 @@ html {
 
 */
 .Header {
-	background: gray;
+	background: #414042;
 	overflow: hidden;
 	height: 144px;
     padding: 0 50px 0 40px;
@@ -86,6 +97,7 @@ html {
 	color: #fff;
 	display: inline-block;
 	float: right;
+	font-size: 60px;
 }
 /*
 
@@ -96,23 +108,22 @@ html {
 	background-image: url("./assets/images/bg.jpg");
 	/*background-size: cover;*/
 	overflow: hidden;
+	height: 95vh;
+}
+.Wrapper-text{
+	width: 60%;
+	background-image: url("./assets/images/naranja.png");
+	background-repeat: no-repeat;
+    padding: 50px 50px 0;
+	background-position-x: -50px; 
+	position: relative;
+	top: -.1rem;   
 	height: 100vh;
 }
 .Wrapper-textTitle {
 	margin-top: 0;
 	color: #fff;
 	font-size: 57px;
-}
-
-.Wrapper-text{
-	width: 60%;
-	background-image: url("./assets/images/naranja.png");
-	background-repeat: no-repeat;
-    padding: 50px;
-	background-position-x: -50px; 
-	position: relative;
-	top: -.1rem;   
-	height: 100vh;
 }
 .Wrapper-textList {
 	font-size: 25px;
@@ -135,7 +146,7 @@ html {
 	width: 50%;
 	float: right;
 	color: #fff;
-	padding: 50px 50px 50px 0;
+	padding: 50px 50px 0 0;
 	position: relative;
 	bottom: 57.9rem;;
 	height: 100vh;
@@ -192,5 +203,8 @@ html {
 
 */
 .Footer {
-	background: gray;
+	background: #414042;
+	padding: 26px 50px;
+	color: #fff;
+	line-height: 30px;
 }
