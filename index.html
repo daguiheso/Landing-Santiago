@@ -5,7 +5,7 @@
 	<title>Santiago Jimenez</title>
 	<meta name="viewport" content="width=device-width, minimum-scale=1,maximum-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -44,17 +44,41 @@
 			</ul>
 		</section>
 		<section class="Wrapper-contact">
-			<p>Déjanos tus Datos y recibiras información ampliada de este programa y 3 artículos que impactarán tu vida</p>
-			<input type="text" placeholder="Nombre Completo">
-			<input type="email" placeholder="e-mail">
-			<input type="number" placeholder="Télefono">
-			<input type="submit" value="Enviar Información">
-			<div class="Shared">
-				<p>Haz Felices a otros, COMPARTE!</p>
-				<input type="text" placeholder="e-mail de tu amigo">
-				<span></span>
-				<input type="submit" value="Enviar Invitación">
+			<div class="Wrapper-contactText">
+				<p>
+					Déjanos <span class="orange">tus Datos</span>
+					<br>
+					<span class="Line2">y recibirás información</span>
+					<br>
+					<span class="Line3">ampliada de este programa y 3 artículos que impactarán tu vida<span>
+				</p>
 			</div>
+
+
+			<form class="Wrapper-contactForm">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Nombre Completo">
+				</div>
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="e-mail">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Teléfono">
+				</div>
+			    <button type="submit" class="btn ">Enviar Invitación</button>
+			</form>
+			<div class="Shared">
+				<p class="Shared-text">Haz Felices a otros, COMPARTE!</p>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="e-mail de tu amigo">
+				</div>
+				<span></span>
+				<div class="form-group">
+				    <button type="submit" class="btn">Enviar Invitación</button>
+				</div>
+			</div>
+		
+			
 		</section>
 	</div>
 	<footer class="Footer">

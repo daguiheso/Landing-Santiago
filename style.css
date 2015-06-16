@@ -1,3 +1,8 @@
+/*
+
+	ICONFONTS
+
+*/
 @font-face {
 	font-family: 'icomoon';
 	src:url('../assets/fonts/icomoon.eot?14nm0l');
@@ -46,15 +51,23 @@
     font-size: 3.5rem;
     margin-top: .8rem;
 }
+.orange {
+	color: #FBB040;
+}
 html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
+/*
+
+	HEADER
+
+*/
 .Header {
 	background: gray;
 	overflow: hidden;
 	height: 144px;
-    padding: 0 60px 0 40px;
+    padding: 0 50px 0 40px;
 }
 .Header-title {
 	color: #fff;
@@ -62,25 +75,28 @@ html {
 	margin-bottom: 0;
 	font-size: 63px;
 	font-weight: 400;
-	margin-top: 0;
+	margin-top: 1rem;
 }
 .Header-subTitle {
 	color: #FBB040;
 	margin: 0;
 	font-size: 40px;
-	position: relative;
-    bottom: .6rem;
 }
 .Header-name {
 	color: #fff;
 	display: inline-block;
 	float: right;
 }
+/*
+
+	WRAPPER TEXT LIST
+
+*/
 .Wrapper {
 	background-image: url("./assets/images/bg.jpg");
 	/*background-size: cover;*/
 	overflow: hidden;
-	padding: 50px 60px 50px 50px;
+	height: 100vh;
 }
 .Wrapper-textTitle {
 	margin-top: 0;
@@ -90,11 +106,15 @@ html {
 
 .Wrapper-text{
 	width: 60%;
-	float: left;
 	background-image: url("./assets/images/naranja.png");
+	background-repeat: no-repeat;
+    padding: 50px;
+	background-position-x: -50px; 
+	position: relative;
+	top: -.1rem;   
+	height: 100vh;
 }
 .Wrapper-textList {
-	/*list-style-image: url("./assets/images/chulo.png");*/
 	font-size: 25px;
 	list-style: none;
 	padding-left: 0;
@@ -102,16 +122,76 @@ html {
 	text-align: justify;
 }
 .Wrapper-textList li{
-	/*position: relative;*/
 	margin: 0 0 2rem;
 }
-/*.Wrapper-textList li > span{
-	background-image: url("./assets/images/chulo.png");
-}*/
+/*
+
+	WRAPPER CONTATC
+
+*/
 .Wrapper-contact{
-	width: 40%;
-	float: left;
+	background-image: url("./assets/images/gris.png");
+	background-repeat: no-repeat;
+	width: 50%;
+	float: right;
+	color: #fff;
+	padding: 50px 50px 50px 0;
+	position: relative;
+	bottom: 57.9rem;;
+	height: 100vh;
 }
+.Wrapper-contactText {
+	padding-left: 9rem;
+	margin-bottom: 2rem;
+}
+.Wrapper-contactText > p {
+	font-size: 60px;
+	margin: 0;
+	line-height: 52px;
+}
+.Wrapper-contactText > p > span.Line2 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.Wrapper-contactText > p > span.Line3 {
+	font-size: 40px;
+	margin: 0;
+}
+.form-control {
+  height: 49px;
+  border-radius: 8px;
+}
+
+.Shared {
+	background: #F15A29;
+	margin: 6rem 0 0 13rem;
+	padding: 0.4rem 1.8rem 5.4rem;
+}
+.Shared-text {
+	font-size: 34px;
+}
+/*
+
+	FOOTER
+
+*/
 .Footer {
 	background: gray;
+}
+.Wrapper-contactForm {
+	margin-left: 18rem;
+}
+.Wrapper-contactForm button,
+.Shared button {
+	background-color: #F7941E;
+	border: 0;
+	border-radius: 4px;
+	padding: .8rem 2rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	float: right;
+}
+.Shared button {
+	background-color: #414042;
 }
