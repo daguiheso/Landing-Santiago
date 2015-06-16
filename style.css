@@ -111,7 +111,6 @@ html {
 	height: 95vh;
 }
 .Wrapper-text{
-	width: 60%;
 	background-image: url("./assets/images/naranja.png");
 	background-repeat: no-repeat;
     padding: 50px 50px 0;
@@ -126,14 +125,15 @@ html {
 	font-size: 57px;
 }
 .Wrapper-textList {
-	font-size: 25px;
+	color: #231F20;
+	font-size: 24px;
 	list-style: none;
 	padding-left: 0;
 	width: 724px;
 	text-align: justify;
 }
 .Wrapper-textList li{
-	margin: 0 0 2rem;
+	margin: 0 0 2.8rem;
 }
 /*
 
@@ -143,7 +143,6 @@ html {
 .Wrapper-contact{
 	background-image: url("./assets/images/gris.png");
 	background-repeat: no-repeat;
-	width: 50%;
 	float: right;
 	color: #fff;
 	padding: 50px 50px 0 0;
@@ -152,7 +151,7 @@ html {
 	height: 100vh;
 }
 .Wrapper-contactText {
-	padding-left: 9rem;
+	padding-left: 18rem;
 	margin-bottom: 2rem;
 }
 .Wrapper-contactText > p {
