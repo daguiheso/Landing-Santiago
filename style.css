@@ -51,6 +51,11 @@
     font-size: 3.5rem;
     margin-top: .8rem;
 }
+.shared-icon {
+	font-size: 2.3rem;
+	float: right;
+	margin: .3rem 1rem;
+}
 /*
 
 	UTILITIES
@@ -118,6 +123,7 @@ html {
 	background-position-x: -50px; 
 	position: relative;
 	top: -.1rem;   
+	padding-bottom: 1.2rem;
     font-size: 16px;
 }
 .Wrapper-textTitle {
@@ -339,7 +345,9 @@ html {
 	    font-size: 20px;
 	}
 }
+@media screen and (max-width: 1037px) {
 
+}
 
 
 
