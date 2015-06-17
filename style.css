@@ -207,3 +207,63 @@ html {
 	color: #fff;
 	line-height: 30px;
 }
+@media screen and (max-width: 1721px) {
+	.Header-title {
+	  font-size: 58px;
+	}
+	.Header-subTitle {
+	  font-size: 35px;
+	}
+	.Header-name {
+	  font-size: 55px;
+	}
+	.Wrapper-text {
+	  background-position-x: 0px;
+	  background-size: contain;
+	  padding: 50px 30px 0;
+	}
+	.Wrapper-textList {
+	  font-size: 20px;
+	  margin-top: 2rem;
+	}
+	.Wrapper-textList li {
+	  margin: 0 0 2rem;
+	}
+	.chulo-icon {
+	   margin-top: 0rem; 
+	   font-size: 2.5rem;
+	}
+	.medal-icon {
+	  font-size: 4rem;
+	}
+	.Wrapper-textTitle {
+	  font-size: 50px;
+	}
+	.Wrapper-contact {
+	  bottom: 51.9rem;
+	}
+	.Wrapper-contactText > p {
+	  font-size: 55px;
+	  line-height: 46px;
+	}
+	.Wrapper-contactText > p > span.Line2 {
+	  font-size: 45px;
+	}
+	.Wrapper-contactText > p > span.Line3 {
+	  font-size: 35px;
+	}
+}
+@media screen and (max-height: 768px) {
+	.Wrapper-text {
+	  background-position-x: -46px;
+	}
+	.Wrapper-textList {
+	  width: 636px;
+	}
+	.chulo-icon {
+	   font-size: 2rem;
+	}
+	.medal-icon {
+	  font-size: 3.5rem;
+	}
+}
