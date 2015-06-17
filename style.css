@@ -145,10 +145,10 @@ html {
 	background-repeat: no-repeat;
 	float: right;
 	color: #fff;
-	padding: 50px 50px 0 0;
+	padding: 80px 50px 0 0;
 	position: relative;
 	bottom: 57.9rem;;
-	height: 100vh;
+	height: 200%;
 }
 .Wrapper-contactText {
 	padding-left: 18rem;
@@ -178,7 +178,6 @@ html {
 	border-radius: 4px;
 	padding: .8rem 2rem;
 	margin-bottom: 1rem;
-	margin-top: 1rem;
 	float: right;
 }
 .form-control {
@@ -207,7 +206,29 @@ html {
 	color: #fff;
 	line-height: 30px;
 }
+/*@media screen and (min-width: 1680px) and (min-height: 1050px) {*/
+/*@media screen and (max-height: 1050px) {
+	.Wrapper-contact {
+		bottom: 65.6rem;
+	}
+}
+@media screen and (max-height: 1024px) {
+	.Wrapper-contact {
+	    bottom: 64.9rem;
+	}
+}
+@media screen and (max-height: 918px) {
+	.Wrapper-contact {
+	    bottom: 58.5rem;
+	}
+}*/
 @media screen and (max-width: 1721px) {
+	.Wrapper-text {
+		background-position: -81px 0px;
+	}	
+}
+
+@media screen and (max-height: 768px) {
 	.Header-title {
 	  font-size: 58px;
 	}
@@ -217,43 +238,6 @@ html {
 	.Header-name {
 	  font-size: 55px;
 	}
-	.Wrapper-text {
-	  background-position-x: 0px;
-	  background-size: contain;
-	  padding: 50px 30px 0;
-	}
-	.Wrapper-textList {
-	  font-size: 20px;
-	  margin-top: 2rem;
-	}
-	.Wrapper-textList li {
-	  margin: 0 0 2rem;
-	}
-	.chulo-icon {
-	   margin-top: 0rem; 
-	   font-size: 2.5rem;
-	}
-	.medal-icon {
-	  font-size: 4rem;
-	}
-	.Wrapper-textTitle {
-	  font-size: 50px;
-	}
-	.Wrapper-contact {
-	  bottom: 51.9rem;
-	}
-	.Wrapper-contactText > p {
-	  font-size: 55px;
-	  line-height: 46px;
-	}
-	.Wrapper-contactText > p > span.Line2 {
-	  font-size: 45px;
-	}
-	.Wrapper-contactText > p > span.Line3 {
-	  font-size: 35px;
-	}
-}
-@media screen and (max-height: 768px) {
 	.Wrapper-text {
 	  background-position-x: -46px;
 	}
@@ -266,4 +250,108 @@ html {
 	.medal-icon {
 	  font-size: 3.5rem;
 	}
+
+
+	.Wrapper-text {
+	  background-position: 0px 0px;
+	  background-size: contain;
+	  padding: 15px 30px 0px;
+	}
+	.Wrapper-textList {
+	  font-size: 20px;
+	  margin-top: 2rem;
+	}
+	.Wrapper-textList li {
+	  margin: 0 0 2rem;
+	}
+	.Wrapper-textTitle {
+	  font-size: 50px;
+	}
+	.Wrapper-contact {
+	  bottom: 51.9rem;
+	}
+	.Wrapper-contactText {
+	    margin-bottom: 1rem;
+	}
+	.Wrapper-contactText > p {
+	  font-size: 55px;
+	  line-height: 38px;
+	}
+	.Wrapper-contactText > p > span.Line2 {
+	  font-size: 45px;
+	}
+	.Wrapper-contactText > p > span.Line3 {
+	  font-size: 35px;
+	}
+	.Shared {
+	    margin: 5rem 0px 0px 13rem;
+	}
+	.Shared-text {
+	    font-size: 29px;
+	}
 }
+@media screen and (max-width: 1450px) {
+	.Header {
+		height: 110px;
+	}
+	.Header-title {
+	  font-size: 52px;
+	}
+	.Header-subTitle {
+	  font-size: 29px;
+	}
+	.Header-name {
+	  font-size: 49px;
+	}
+	
+	.Wrapper {
+	  height: 95vh;
+	}
+	.Wrapper-text {
+	    background-position: -62px 0px;
+	}
+	.Wrapper-textTitle {
+	  font-size: 44px;
+	}
+	.Wrapper-textList {
+	  font-size: 18px;
+	}
+	.chulo-icon {
+	   margin-top: 0.4rem;
+	}
+
+
+	.Wrapper-contact {
+	    padding: 100px 50px 0px 0px;
+	}
+	.Wrapper-contactText > p {
+	  font-size: 49px;
+	  line-height: 38px;
+	}
+	.Wrapper-contactText > p > span.Line2 {
+	  font-size: 39px;
+	}
+	.Wrapper-contactText > p > span.Line3 {
+	  font-size: 29px;
+	}
+	
+	.Shared {
+	    margin: 5rem 0px 0px 18rem;
+	}
+	.Shared-text {
+	    font-size: 23px;
+	}
+}
+@media screen and (max-width: 1356px) {
+	.Wrapper-contact {
+	  padding: 187px 50px 0px 0px;
+	}
+}
+/*@media screen and (min-height: 925px) {
+	.Wrapper {
+		height: 89vh;
+	}
+	.Wrapper-contact {
+	    height: 100%;
+	}
+}*/
