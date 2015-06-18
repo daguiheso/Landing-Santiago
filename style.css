@@ -140,7 +140,7 @@ html {
 	width: 724px;
 	text-align: justify;
 }
-.Wrapper-textList li{
+.Wrapper-textList li {
 	margin: 0 0 2.8rem;
 }
 /*
@@ -148,7 +148,7 @@ html {
 	WRAPPER CONTATC
 
 */
-.Wrapper-contact{
+.Wrapper-contact {
 	background-image: url("./assets/images/gris.png");
 	background-repeat: no-repeat;
 	color: #fff;
@@ -191,6 +191,7 @@ html {
 	padding: .8rem 2rem;
 	margin-bottom: 1rem;
 	float: right;
+	color: #231F20;
 }
 .form-control {
   height: 49px;
@@ -209,6 +210,10 @@ html {
 }
 .Shared button {
 	background-color: #414042;
+	color: #fff;
+}
+.Shared button:hover {
+	color: #fff;
 }
 /*
 
@@ -287,10 +292,10 @@ html {
 	}
 	.Shared {
 	    padding: 1rem 1rem;
-	    width: 423px;
+	    width: 410px;
 	}
 	.Shared-text {
-		font-size: 26px;
+		font-size: 25px;
 	}
 	.Wrapper-textList {
 	    width: 633px;
@@ -305,7 +310,7 @@ html {
 	}
 	.chulo-icon {
 	   font-size: 2.7rem;
-	   margin-top: 0.8rem;
+	   margin-top: 1rem;
 	}
 	.Wrapper-contactForm {
 	    margin-left: 19rem;
