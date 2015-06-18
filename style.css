@@ -350,6 +350,79 @@ html {
 	    font-size: 20px;
 	}
 }
-@media screen and (max-width: 1037px) {
+@media screen and (max-width: 1055px) {
+	.Header {
+		font-size: 11px;
+		height: 100px;
+	}
+	.Wrapper-text {
+	    background: #F7941E;
+	    opacity: .9;
+	    padding: 60px 80px;
+	}
+	.Wrapper-textList {
+	    min-width: 100%;
+	}
+	.Wrapper-textTitle {
+		font-size: 4em;
+		margin-bottom: 2rem;
+	}
+	.chulo-icon {
+		font-size: 3.25rem;
+	    margin-top: 0; 
+	}
+	.medal-icon {
+	    font-size: 5.2rem;
+	}
+	.Wrapper-contact {
+		position: initial;
+		background: black;
+		opacity: .8;
+		min-width: 100%;
+		overflow: hidden;
+		padding: 50px 50px 150px;
+	}
+	.Wrapper-contactText {
+		padding: 0;
+		width: 50%;
+		margin: 0;
+		float: left;
+	}
+	.Wrapper-contactForm {
+		width: 50%;
+		margin-left: 0;
+		float: left;
+	}
+	.Shared {
+		border-radius: 6px;
+		left: 50px;
+		/*width: 65%;*/
+		/*text-align: center;*/
+	}
+	/*.Medium {
+		float: left;
+	}
+	.Shared-input {
+		width: 300px;
+	}*/
+}
+@media screen and (max-width: 940px) {
+	/*.Wrapper-contactText {
+	    width: 100%;
+	    float: initial;
+	}
+	.Wrapper-contactForm {
+		margin: 1rem 0;
+		width: 100%;
+	}
+	.Shared {
+		left: 0;
+		width: 100%
+	}
+	.Shared-input {
+		min-width: 155%;
+	}*/
+}
+@media screen and (max-width: 940px) {
 
 }
