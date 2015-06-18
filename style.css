@@ -532,13 +532,85 @@ html {
 	.Footer {
 		padding: 26px 20px;
 	}
+	.Header {
+	    font-size: 10px;
+	}
 }
 @media screen and (max-width: 437px) {
 	.Header {
 		padding: 0 35px;
-		text-align: center;
+		/*text-align: center;*/
 	}
 	.Wrapper-text {
 		padding: 50px 50px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.Header {
+		font-size: 8px;
+	    height: 155px;
+	    padding: 0 24px;
+	}
+	.Header-name {
+	    top: 6.2rem;
+	}
+	.Wrapper-text {
+	    font-size: 8px;
+	    padding: 40px 30px;
+	}
+	.Wrapper-textTitle {
+	    font-size: 3.5em;
+	}
+	.chulo-icon {
+	  	margin-top: 0.2em;
+		font-size: 2.7em;
+	}
+	div.Wrapper > section.Wrapper-text > ul > li:nth-child(3) > span {
+		margin-top: 0.1em;
+	}
+	.Wrapper-contact {
+	    padding: 30px 30px 170px;
+	}
+	.Wrapper-contactText > p {
+	    font-size: 1.5rem;
+	}
+	.Line2-940px {
+	    font-size: 1.5rem;
+	}
+	.form-control {
+	    height: 42px;
+	}
+	.Shared {
+	    left: 0;
+	    right: 0;
+	    position: absolute;
+	    width: 100%;
+	}
+	.Shared-text {
+	    font-size: 16px;
+	}
+	.Wrapper-contactForm button, .Shared button {
+	    padding: .6rem 2rem;
+	}
+	.Footer {
+		line-height: 16px;
+	}
+}
+@media screen and (max-width: 365px) {
+	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(4) > span {
+		margin-top: .61em;
+	}
+}
+@media screen and (max-width: 331px) {
+	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(2) > span {
+	    margin-top: 0.61em;
+	}
+}
+@media screen and (max-width: 311px) {
+	.Wrapper-text {
+	    padding: 30px 20px;
+	}
+	.Wrapper-contact {
+	  padding: 30px 20px 170px;
 	}
 }
