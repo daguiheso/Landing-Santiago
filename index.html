@@ -12,11 +12,12 @@
 	<header class="Header">
 		<h2 class="Header-title">¿Hace cuánto no inviertes en ti?</h2>
 		<h1 class="Header-name">Santiago Jimenez</h1>
-		<h3 class="Header-subTitle">Equilibrio = Felicidad x Efectividad</h3>
+		<h3 class="Header-subTitle">Programa: Equilibrio = Felicidad x Efectividad</h3>
 	</header>
 	<div class="Wrapper">
 		<section class="Wrapper-text">
-			<h2 class="Wrapper-textTitle">Beneficios que <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;impulsarán tu vida</h2>
+			<h2 class="Wrapper-textTitle is-desactiveTitle">Beneficios que <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;impulsarán tu vida</h2>
+			<h2 class="Wrapper-textTitle  is-activeTitle" style="display:none;">Beneficios que impulsarán tu vida</h2>
 			<ul class="Wrapper-textList">
 				<li>
 					<span class="icon-chulo chulo-icon"></span>
@@ -45,12 +46,16 @@
 		</section>
 		<section class="Wrapper-contact">
 			<div class="Wrapper-contactText">
-				<p>
+				<p class="is-desactive">
 					Déjanos <span class="orange">tus Datos</span>
 					<br>
 					<span class="Line2">y recibirás información</span>
 					<br>
 					<span class="Line3">ampliada de este programa y 3 artículos que impactarán tu vida<span>
+				</p>
+				<p style="display:none;" class="is-active">
+					Déjanos <span class="orange Line1-940px">tus Datos</span>
+					<span class="Line2-940px">y recibirás información ampliada de este programa y 3 artículos que impactarán tu vida.</span>
 				</p>
 			</div>
 
@@ -69,7 +74,7 @@
 			</form>
 			<div class="Shared">
 				<p class="Shared-text">Haz Felices a otros, COMPARTE!</p>
-				<div class="form-group Medium">
+				<div class="form-group">
 					<input type="text" class="form-control Shared-input" placeholder="e-mail de tu amigo">
 				</div>
 				<div class="form-group">

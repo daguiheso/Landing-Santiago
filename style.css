@@ -353,18 +353,18 @@ html {
 @media screen and (max-width: 1055px) {
 	.Header {
 		font-size: 11px;
-		height: 100px;
+		height: 110px;
 	}
 	.Wrapper-text {
 	    background: #F7941E;
 	    opacity: .9;
-	    padding: 60px 80px;
+	    padding: 60px 50px;
 	}
 	.Wrapper-textList {
 	    min-width: 100%;
 	}
 	.Wrapper-textTitle {
-		font-size: 4em;
+		font-size: 5em;
 		margin-bottom: 2rem;
 	}
 	.chulo-icon {
@@ -396,33 +396,141 @@ html {
 	.Shared {
 		border-radius: 6px;
 		left: 50px;
-		/*width: 65%;*/
-		/*text-align: center;*/
 	}
-	/*.Medium {
-		float: left;
-	}
-	.Shared-input {
-		width: 300px;
-	}*/
 }
 @media screen and (max-width: 940px) {
-	/*.Wrapper-contactText {
-	    width: 100%;
-	    float: initial;
+	.Header {
+		height: 163px;
+		font-size: 12px;
 	}
-	.Wrapper-contactForm {
-		margin: 1rem 0;
-		width: 100%;
+	.Header-name {
+	  	font-size: 3.5em;
+	  	position: absolute;
+	  	top: 5.5rem;
+	  	right: 50px;
+	  	display: block;
+	  	bottom: 0;
+	}
+	.Wrapper-contact {
+		padding: 50px 50px 170px;
+	}
+	.Wrapper-contactText {
+		padding-right: 1rem;
 	}
 	.Shared {
-		left: 0;
-		width: 100%
+		right: 50px;
+		left: initial;
 	}
-	.Shared-input {
-		min-width: 155%;
-	}*/
+	.is-active {
+		display: block !important;
+	}
+	.is-desactive {
+		display: none !important;
+	}
+	.Line1-940px {
+		line-height: 47px;
+	}
+	.Line2-940px {
+		font-size: 2rem;
+	}
 }
-@media screen and (max-width: 940px) {
-
+@media screen and (max-width: 800px) {
+	.Header {
+		height: 163px;
+		font-size: 11px;
+	}
+	.Wrapper-textTitle {
+	 	font-size: 4em;
+	}
+	.Footer {
+		text-align: center
+	}
+	.push-right {
+	     float: initial; 
+	}
+}
+@media screen and (max-width: 757px) {
+	.chulo-icon {
+	 	margin-top: .3rem;
+	}
+}
+@media screen and (max-width: 730px) {
+	.chulo-icon {
+	 	margin-top: .3rem;
+	}
+	.Header {
+		height: 194px;
+	}
+	.Header-name {
+		top: 8.2rem;
+	}
+	.Header-subTitle {
+		font-size: 2.2em;
+	}
+}
+@media screen and (max-width: 663px) {
+	.Wrapper-text {
+		font-size: 11px;
+	}
+	.chulo-icon {
+		margin-top: 0.1em;
+		font-size: 3em;
+	}
+	.medal-icon {
+		font-size: 4.7em;
+	}
+	.Wrapper-textList {
+		width: 100%;
+	}
+	.Wrapper-contactText {
+	  	width: 100%;
+  		margin-bottom: 1rem;
+	}
+	.Wrapper-contactForm {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 594px) {
+	.Header {
+		height: 213px;
+	}
+	.Header-name {
+		top: 9.2rem;
+	}
+	.Wrapper-text {
+		font-size: 10px;
+	}
+	.Wrapper-textList li {
+		margin: 0 0 1.8rem;
+	}
+	.medal-icon {
+		position: relative;
+		bottom: .3rem;
+	}
+	.is-activeTitle {
+		display: block !important;		
+	}
+	.is-desactiveTitle {
+		display: none !important;
+	}
+	.Wrapper-contactText > p {
+	  font-size: 2rem;
+	}
+}
+@media screen and (max-width: 486px) {
+	.chulo-icon {
+		margin-top: 0.42em;
+	}
+	.Footer {
+		padding: 26px 20px;
+	}
+}
+@media screen and (max-width: 437px) {
+	.Header {
+		padding: 0 35px;
+		text-align: center;
+	}
+	.Wrapper-text {
+		padding: 50px 50px;
+	}
 }
