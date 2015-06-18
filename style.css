@@ -37,6 +37,13 @@
 .icon-chulo:before {
 	content: "\e602";
 }
+@font-face {
+	font-family: 'Conv_ArnoPro-Regular';
+	src: url('fonts/ArnoPro-Regular.eot');
+	src: local('☺'), url('fonts/ArnoPro-Regular.woff') format('woff'), url('fonts/ArnoPro-Regular.ttf') format('truetype'), url('fonts/ArnoPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 .medal-icon {
 	color: #fff;
 	float: left;
@@ -104,6 +111,7 @@ html {
 	display: inline-block;
 	float: right;
 	font-size: 3.75em;
+    font-family: 'Conv_ArnoPro-Regular';
 }
 /*
 
