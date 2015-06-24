@@ -274,6 +274,14 @@ html {
 	}
 }
 
+@media screen and (min-width: 1450px) {
+	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(3) > span {
+		margin-top: .2rem;
+	}
+	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(4) > span {
+		margin-top: 1.5rem;
+	}
+}
 @media screen and (max-width: 1450px) {
 	.Header {
 	    font-size: 13px;
@@ -285,8 +293,8 @@ html {
 	}
 	.chulo-icon {
 	   font-size: 2.7rem;
-	   margin-top: 0.3rem;
-	}
+	   margin-top: 0.4rem;
+	}	
 	.medal-icon {
 	  font-size: 4.1rem;
 	}
@@ -322,8 +330,8 @@ html {
 	    width: 530px;
 	}
 	.chulo-icon {
-	   font-size: 2.7rem;
-	   margin-top: 1rem;
+		font-size: 2.7rem;
+		margin-top: 1rem;
 	}
 	.Wrapper-contactForm {
 	    margin-left: 19rem;
