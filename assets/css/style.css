@@ -5,11 +5,11 @@
 */
 @font-face {
 	font-family: 'icomoon';
-	src:url('./assets/fonts/icomoon.eot?14nm0l');
-	src:url('./assets/fonts/icomoon.eot?#iefix14nm0l') format('embedded-opentype'),
-		url('./assets/fonts/icomoon.ttf?14nm0l') format('truetype'),
-		url('./assets/fonts/icomoon.woff?14nm0l') format('woff'),
-		url('./assets/fonts/icomoon.svg?14nm0l#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?14nm0l');
+	src:url('../fonts/icomoon.eot?#iefix14nm0l') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?14nm0l') format('truetype'),
+		url('../fonts/icomoon.woff?14nm0l') format('woff'),
+		url('../fonts/icomoon.svg?14nm0l#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -120,13 +120,12 @@ html {
 
 */
 .Wrapper {
-	background-image: url("./assets/images/bg.jpg");
-	/*background-size: cover;*/
+	background-image: url("../images/bg.jpg");
 	overflow: hidden;
 	position: relative;
 }
 .Wrapper-text{
-	background-image: url("./assets/images/naranja.png");
+	background-image: url("../images/naranja.png");
 	background-repeat: no-repeat;
     padding: 50px 50px 0;
 	background-position-x: -50px; 
@@ -158,7 +157,7 @@ html {
 
 */
 .Wrapper-contact {
-	background-image: url("./assets/images/gris.png");
+	background-image: url("../images/gris.png");
 	background-repeat: no-repeat;
 	color: #fff;
 	padding: 50px 50px 0 0;
@@ -604,6 +603,6 @@ html {
 	    padding: 30px 20px;
 	}
 	.Wrapper-contact {
-	  padding: 30px 20px 170px;
+	  	padding: 30px 20px 170px;
 	}
 }
