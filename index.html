@@ -62,32 +62,57 @@
 
 			<form class="Wrapper-contactForm">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Nombre Completo">
+					<input type="text" title="El nombre es requerido" class="form-control" placeholder="Nombre Completo" required>
 				</div>
 				<div class="form-group">
-					<input type="email" class="form-control" placeholder="E-mail">
+					<input type="email" title="El correo es requerido" class="form-control" placeholder="E-mail" required>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Teléfono">
+					<input type="text" title="El telefono es requerido" class="form-control" placeholder="Teléfono" required>
 				</div>
-			    <button type="submit" class="btn ">Enviar Invitación</button>
+			    <button type="submit" class="btn" data-toggle="modal" data-target=".ModalThanks">Enviar Invitación</button>
 			</form>
 			<div class="Shared">
 				<p class="Shared-text">Haz Felices a otros, COMPARTE!</p>
-				<div class="form-group">
-					<input type="text" class="form-control Shared-input" placeholder="E-mail de tu amigo">
-				</div>
-				<div class="form-group">
-				    <button type="submit" class="btn">Enviar Invitación</button>
-					<span class="icon-shared shared-icon"></span>
-				</div>
+				<form>
+					<div class="form-group">
+						<input type="email" title="El correo es requerido" class="form-control Shared-input" placeholder="E-mail de tu amigo" required>
+					</div>
+					<div class="form-group">
+					    <button type="submit" class="btn">Enviar Invitación</button>
+						<span class="icon-shared shared-icon"></span>
+					</div>
+				</form>
 			</div>
 		</section>
-	</div>
+	</div>  
+
+
+	<div class="modal fade ModalThanks" role="dialog" aria-labelledby="gridSystemModalLabel">
+		<div class="modal-dialog" role="document">
+		    <div class="modal-content ModalTranks-content">
+		        <div class="modal-body ModalTranks-body">
+		        	<div class="ContentText">
+			        	<p>
+			        		<strong>Gracias</strong> por confiar en nosotros, en los próximos minutos recibirás información valiosa para hacer de <strong><span class="white">tu felicidad</span></strong> un plan <strong>alcanzable.</strong>
+			        	</p>
+		        	</div>
+					<img class="ModalTranks-body" src="./assets/images/gracias-logo.png" alt="Santiago Jimenez">
+					
+		        </div>
+		        <button type="button" class="btn BtnModalTranks" data-dismiss="modal">Aceptar</button>
+		    </div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+
 	<footer class="Footer">
 		<p class="inline-block">Todos los derechos reservados &#169; 2015 Santiago Jimenez</p>
 		<p class="inline-block push-right">+57(1) 492 94 82&nbsp;|&nbsp;info@santiagojimenez.co</p>
 	</footer>
-    <script src="app.js"></script>
+    <script src="./assets/js/jquery.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>

@@ -77,6 +77,9 @@
 .orange {
 	color: #FBB040;
 }
+.white {
+	color: white;
+}
 html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -234,6 +237,45 @@ html {
 	color: #fff;
 	line-height: 30px;
 }
+/*  
+
+	MODAL
+
+*/
+.ModalTranks-content {
+	background-image: url("../images/gracias-bg.jpg");
+	background-size: cover;
+	min-height: 100vh;
+}
+.ModalTranks-body {
+	padding: 0;
+}
+.ModalTranks-body img {
+	width: 60%;
+	height: auto;
+	margin: 1.4rem 1rem;
+	float: right;
+}
+.ContentText {
+	background: black;
+	opacity: .8;
+	padding: 1rem 1.2rem;
+	color: #ebcc12;
+	font-size: 2.3rem;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 60vh;
+}
+.BtnModalTranks {
+	background: #F7941E;
+	margin: 2rem 1rem;
+	color: white;
+}
+/*  
+
+	MEDIA Q´S
+
+*/
 @media screen and (min-width: 1800px) {
 	.Header-logo {
 		top: -.5rem;
@@ -272,7 +314,6 @@ html {
 		font-size: 29px;
 	}
 }
-
 @media screen and (min-width: 1450px) {
 	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(3) > span {
 		margin-top: .2rem;
@@ -515,6 +556,16 @@ html {
 	.Wrapper-contactText > p {
 	  font-size: 2rem;
 	}
+	.ModalTranks-content {
+		min-height: 75vh;
+	}
+	.ModalTranks-body img {
+		width: 300px;
+		margin: 1.4rem 1rem;
+	}
+	.ContentText {		
+		margin-top: 25vh;
+	}
 }
 @media screen and (max-width: 486px) {
 	.Header-logo {
@@ -528,6 +579,14 @@ html {
 	}
 	.Header {
 	    font-size: 10px;
+	}
+}
+@media screen and (max-width: 460px) {
+	.ModalTranks-body img {
+		float: initial;
+	}
+	.BtnModalTranks {
+	  margin: 0rem 1rem 1rem;
 	}
 }
 @media screen and (max-width: 437px) {
@@ -591,6 +650,11 @@ html {
 @media screen and (max-width: 365px) {
 	body > div.Wrapper > section.Wrapper-text > ul > li:nth-child(4) > span {
 		margin-top: .61em;
+	}
+}
+@media screen and (max-width: 350px) {
+	.ModalTranks-body img {
+		width: 250px;
 	}
 }
 @media screen and (max-width: 331px) {
