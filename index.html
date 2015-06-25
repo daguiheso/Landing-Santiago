@@ -62,25 +62,27 @@
 
 			<form class="Wrapper-contactForm">
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Nombre Completo">
+					<input type="text" title="El nombre es requerido" class="form-control" placeholder="Nombre Completo" required>
 				</div>
 				<div class="form-group">
-					<input type="email" class="form-control" placeholder="E-mail">
+					<input type="email" title="El correo es requerido" class="form-control" placeholder="E-mail" required>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Teléfono">
+					<input type="text" title="El telefono es requerido" class="form-control" placeholder="Teléfono" required>
 				</div>
 			    <button type="submit" class="btn ">Enviar Invitación</button>
 			</form>
 			<div class="Shared">
 				<p class="Shared-text">Haz Felices a otros, COMPARTE!</p>
-				<div class="form-group">
-					<input type="text" class="form-control Shared-input" placeholder="E-mail de tu amigo">
-				</div>
-				<div class="form-group">
-				    <button type="submit" class="btn">Enviar Invitación</button>
-					<span class="icon-shared shared-icon"></span>
-				</div>
+				<form>
+					<div class="form-group">
+						<input type="email" title="El correo es requerido" class="form-control Shared-input" placeholder="E-mail de tu amigo" required>
+					</div>
+					<div class="form-group">
+					    <button type="submit" class="btn">Enviar Invitación</button>
+						<span class="icon-shared shared-icon"></span>
+					</div>
+				</form>
 			</div>
 		</section>
 	</div>
